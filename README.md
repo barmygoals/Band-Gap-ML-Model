@@ -1,0 +1,1 @@
+This is the codebase for my disseration in MSc Physics at the University of Surrey. The project explores the application of Machine Learning to predicting electronic band gaps of materials as a surrogate to DFT calculations.
