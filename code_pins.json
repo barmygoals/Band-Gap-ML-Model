@@ -1,0 +1,194 @@
+{
+  "campaign": "master_v4_2026-08-19",
+  "files": {
+    "data/preprocessing.py": {
+      "evidence": "cache",
+      "md5": "5fa721b335faa70a4fc4efe39935637a",
+      "semantic": {
+        "cp312": "cb4ec7821e2f6e759f6c1145645edbd1",
+        "cp313": "72d46990cf9b48feb3381175750eac09",
+        "cp314": "72d46990cf9b48feb3381175750eac09"
+      }
+    },
+    "external_libraries/MD_hit_formula_parallel.py": {
+      "evidence": "campaign",
+      "md5": "b194ef17e06814caecbc098a1cba32f5",
+      "semantic": {
+        "cp312": "df3e7ba2afebfe65778a550ee5c0ba41",
+        "cp313": "bc0b2c8cf91b77fab962f4a5cda56363",
+        "cp314": "bc0b2c8cf91b77fab962f4a5cda56363"
+      }
+    },
+    "features/descriptors.py": {
+      "evidence": "campaign",
+      "md5": "6a799e0dd240fe200abc3a89b9adba9e",
+      "semantic": {
+        "cp312": "f6fde693f451b103f325ca5bf7fa83ef",
+        "cp313": "7d92cfe808b7f335d238de25cf6cf75e",
+        "cp314": "7d92cfe808b7f335d238de25cf6cf75e"
+      }
+    },
+    "features/physics_features.py": {
+      "evidence": "campaign",
+      "md5": "f35bdc6b2bd9d960ba9078039ed9f841",
+      "semantic": {
+        "cp312": "74b7423c05fd0f460009197422145644",
+        "cp313": "e5aead3861e55f78ad3bed636b12056b",
+        "cp314": "e5aead3861e55f78ad3bed636b12056b"
+      }
+    },
+    "features/physics_features_alt.py": {
+      "evidence": "campaign",
+      "md5": "ef2c7fe4f80bd621d2654ea9b22b45cc",
+      "semantic": {
+        "cp312": "a9ee488e21aa22cce22ba0ede57102fd",
+        "cp313": "855b046e5d529dd00aa51cd29bf48e9c",
+        "cp314": "855b046e5d529dd00aa51cd29bf48e9c"
+      }
+    },
+    "features/physics_features_v2.py": {
+      "evidence": "campaign",
+      "md5": "f0038c5cd8ed1464569ddb1faf979c9a",
+      "semantic": {
+        "cp312": "edaaff7a44fc0fc0f029ec13019328fd",
+        "cp313": "61b8a0a0778e2f2ce7132671d147777b",
+        "cp314": "61b8a0a0778e2f2ce7132671d147777b"
+      }
+    },
+    "model/benchmark.py": {
+      "evidence": "campaign",
+      "md5": "1047b1b22a9d109f214822a4f20edb8a",
+      "semantic": {
+        "cp312": "3d1c7991d1b4b33c4f9abc4766681b88",
+        "cp313": "97ecd43dbb406d384834837a1e2d4ed3",
+        "cp314": "97ecd43dbb406d384834837a1e2d4ed3"
+      }
+    },
+    "model/crabnet_baseline.py": {
+      "evidence": "campaign",
+      "md5": "1b6e0e16bf67f06aef1447a3213c9b94",
+      "semantic": {
+        "cp312": "4d4dcf6b038c2bcdd735b40f6e544b80",
+        "cp313": "2ffe334f99ee46dad2961af06d13a6fe",
+        "cp314": "2ffe334f99ee46dad2961af06d13a6fe"
+      }
+    },
+    "model/crabnet_data_efficiency.py": {
+      "evidence": "cache",
+      "md5": "971522d262182f297a163597966c4411",
+      "semantic": {
+        "cp312": "1be82fe49d56c0af297193e02a4a24c4",
+        "cp313": "9da12cc688bb4c5390db06b954ebf1ed",
+        "cp314": "9da12cc688bb4c5390db06b954ebf1ed"
+      }
+    },
+    "model/crabnet_ood.py": {
+      "evidence": "campaign",
+      "md5": "97a4233ecc8dc8ad70ba683200729bd9",
+      "semantic": {
+        "cp312": "53bd255a4e399c1cc4fde6e03502c4b7",
+        "cp313": "b323c248a6df6542385ea394f863ef3c",
+        "cp314": "b323c248a6df6542385ea394f863ef3c"
+      }
+    },
+    "model/crabnet_transfer.py": {
+      "evidence": "cache",
+      "md5": "26dfe7778470ca8a0963143061802d76",
+      "semantic": {
+        "cp312": "aa764da693d84b497b919c32b248ee33",
+        "cp313": "db1163f424b5a257e65f3f04a2a80a31",
+        "cp314": "db1163f424b5a257e65f3f04a2a80a31"
+      }
+    },
+    "model/export_splits.py": {
+      "evidence": "cache",
+      "md5": "6cb628df47ecd7192c6880739bdb8031",
+      "semantic": {
+        "cp312": "47cd2cfb15b1e5b3d2540290d3f75782",
+        "cp313": "2645d5f73351c4d0c8dc157859fd45ec",
+        "cp314": "2645d5f73351c4d0c8dc157859fd45ec"
+      }
+    },
+    "model/extrapolation.py": {
+      "evidence": "campaign",
+      "md5": "30453049bfe6d6c7c124d1590946ae64",
+      "semantic": {
+        "cp312": "ac7a4381c7b05c80c4718c539acdaac4",
+        "cp313": "5d15869994916e3a3b5f86094654e114",
+        "cp314": "5d15869994916e3a3b5f86094654e114"
+      }
+    },
+    "model/folds.py": {
+      "evidence": "campaign",
+      "md5": "e5ec86242bdbeea96cb87d6a14be5adb",
+      "semantic": {
+        "cp312": "d225186126d865096a27877b2cb9874d",
+        "cp313": "d29066bf6496c600baba551a7737bcff",
+        "cp314": "d29066bf6496c600baba551a7737bcff"
+      }
+    },
+    "model/matbench_folds.py": {
+      "evidence": "campaign",
+      "md5": "5ac7f44e2ffee2cf212c8373bff75852",
+      "semantic": {
+        "cp312": "31d6779a4b637751680344a0b27db466",
+        "cp313": "55dcf4862972ae4872fb76d6c69eeb54",
+        "cp314": "55dcf4862972ae4872fb76d6c69eeb54"
+      }
+    },
+    "model/mdhit_arms.py": {
+      "evidence": "campaign",
+      "md5": "825acdf2482a1578f030f00b6a86a309",
+      "semantic": {
+        "cp312": "1eea20f1c1a492805fa45cb779f54a46",
+        "cp313": "ae1bf8e36401a4544e9dbae7eb501c53",
+        "cp314": "ae1bf8e36401a4544e9dbae7eb501c53"
+      }
+    },
+    "model/metal_classifier.py": {
+      "evidence": "cache",
+      "md5": "9842f603960ed3328aaea32618d94983",
+      "semantic": {
+        "cp312": "61ce980c82e5f33de3b89622668b021f",
+        "cp313": "37b0b4c002e4bffec3fb29cd3c641c81",
+        "cp314": "37b0b4c002e4bffec3fb29cd3c641c81"
+      }
+    },
+    "model/network.py": {
+      "evidence": "campaign",
+      "md5": "a7b09c5c8435fde1a6b839e704188f1e",
+      "semantic": {
+        "cp312": "078766138d3a23eb9a85ee57a96c74b9",
+        "cp313": "27f335d94dd55d59dc9994b4803e5643",
+        "cp314": "27f335d94dd55d59dc9994b4803e5643"
+      }
+    },
+    "model/residual.py": {
+      "evidence": "campaign",
+      "md5": "fe514adf7dcb29fd58d50db2c696eed1",
+      "semantic": {
+        "cp312": "0e0a8bad6778b2be947258e9ce322827",
+        "cp313": "fb50e13185bb6168e363b568e3e92daf",
+        "cp314": "fb50e13185bb6168e363b568e3e92daf"
+      }
+    },
+    "model/train_subsets.py": {
+      "evidence": "cache",
+      "md5": "45651ab6567245e2b48f2f97211824a5",
+      "semantic": {
+        "cp312": "76079849f72d5e68a08b646868f2bc85",
+        "cp313": "cc6a36ee7f764a6e1474d1724086d9f9",
+        "cp314": "cc6a36ee7f764a6e1474d1724086d9f9"
+      }
+    },
+    "model/training.py": {
+      "evidence": "campaign",
+      "md5": "7f78abe8ab2db8383ae8133ac06ee5be",
+      "semantic": {
+        "cp312": "b246370023481e5295ee01ba26a57b72",
+        "cp313": "4af7887cde2291918019a151f438b2ac",
+        "cp314": "4af7887cde2291918019a151f438b2ac"
+      }
+    }
+  }
+}

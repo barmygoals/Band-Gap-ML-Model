@@ -21,3 +21,64 @@ env/
 
 # macOS
 .DS_Store
+
+# data files
+*.csv
+*.json
+
+# ...except the code pins, which are source, not data: cache.py reads them to decide
+# whether a source file's CODE is unchanged since master_v4, so comment edits keep their
+# cache keys (see scripts/build_code_pins.py). Without this file every source hash falls
+# back to raw bytes and the published repo cannot reproduce a single cached key.
+!code_pins.json
+
+# regenerable content-addressed cache (see cache.py) — models, features, Optuna studies, etc.
+cache/
+
+# research notes
+*.md
+
+# ...except this one, which explains where the chapter drafts went when they
+# moved into the Obsidian vault on 2026-08-12. The drafts themselves are no
+# longer in the repo at all; the committed `Sections/*.tex` generated from them
+# is what gives their content git history (the conversion runs both ways).
+!docs/thesis_prep/markdown/README.md
+
+# hpc logs
+*.out
+*.err
+*.log
+
+# shell scripts
+*.sh
+
+# results raw data
+results/
+
+# models raw data
+models/
+
+# experiment plans (YAML files)
+experiments/
+
+# research papers
+*.html
+*.pdf
+
+# diagrams (until finalised)
+diagrams/
+
+# extracted source-paper text (regenerable via scripts/extract_sources.py from
+# the PDFs in the Obsidian vault) — ~50 papers of raw text, no reason to version
+docs/thesis_prep/sources_txt/
+# node deps for the PDF.js text-item extractor (scripts/pdftext)
+node_modules/
+
+# change-marked review build (scripts/make_tex_diff.py) — a throwaway copy of
+# the thesis with latexdiff mark-up, regenerable from any baseline and never an
+# input to anything; committing it would double every chapter's history
+docs/thesis_prep/overleaf/Sections_diff/
+docs/thesis_prep/overleaf/main_diff.tex
+# cached latexdiff-so, downloaded from CTAN on first run — third-party Perl,
+# deliberately not vendored into external_libraries/
+scripts/.latexdiff/
